@@ -16,7 +16,9 @@ public class lamdaExpressions {
 		
 		Consumer<Integer> method = (n) -> { System.out.println(n); };
 //		arrayList.forEach(method);
+		
+		SumCalInterface obj = (a,b) -> System.out.println( a+b);
+		obj.sum(10, 20);
 	}
-	
 	
 }
