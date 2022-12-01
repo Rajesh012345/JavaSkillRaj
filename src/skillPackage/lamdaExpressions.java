@@ -19,8 +19,6 @@ public class lamdaExpressions {
 		
 		SumCalInterface obj = (a,b) -> System.out.println( a+b);
 		obj.sum(10, 20);
-		
-		
 	}
 	
 }
